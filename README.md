@@ -10,12 +10,14 @@ What is YAML?
 •	It provides friendly data serialization standard for all programming languages.
 •	YAML is more readable and it is good for the developers for read/write configuration files.
 Main Goals of YAML:
+
 1.	YAML is easily readable by humans. 
 2.	YAML data is portable between programming languages. 
 3.	YAML matches the native data structures of agile languages. 
 4.	YAML has a consistent model to support generic tools. 
 5.	YAML is expressive and extensible. 
 6.	YAML is easy to implement and use. 
+
 Example:
 environment:
     Profiles: dev
@@ -26,10 +28,12 @@ environment:
     name: QA App 
     url: http://qa.abc.com
 There are following YAML parsers available for Java,
+
 1.	SnakeYAML
 2.	JYaml
 3.	YamlBeans
 4.	JvYaml
+
 Spring Boot uses SnakeYAML library for yaml support.
 If Snakeyaml library is included in your classpath, then SpringApplication class will automatically supports the YAML as an alternative to properties file.
 if we you use starter pom then spring-boot-starter automaticaly loads yml file (application.yml)
